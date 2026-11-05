@@ -4,16 +4,20 @@
 
 纯静态实现，无构建依赖，移动端优先（390px 设计，适配 320px–430px），可在任意静态托管直接部署。首页视觉参考医疗健康类 App：浅色渐变与玻璃质感、轻量进行中服务卡、双场景功能卡、柔和色块线性图标与悬浮底部导航。
 
-## 立即预览
+## 在线预览
 
-当前工作区已启动本地预览：**<http://127.0.0.1:4178/>**
+**<https://houxueqing.github.io/anyi-care-h5/>**
 
-重新启动：
+源码仓库：<https://github.com/HOUXUEQING/anyi-care-h5>
+
+本地预览：
 
 ```bash
 cd care-h5
 python -m http.server 4178 --bind 127.0.0.1
 ```
+
+打开 <http://127.0.0.1:4178/>。
 
 也可以用任意静态服务器（Nginx / OSS / Vercel / Netlify）直接托管该目录。
 
